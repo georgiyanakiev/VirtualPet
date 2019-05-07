@@ -113,19 +113,12 @@ namespace VirtualPet
             } // end if
             Console.WriteLine();
             Console.WriteLine("0) Exit the program");
-            synth.Speak("0) Exit the program");
             Console.WriteLine($"1) Talk to {myPet.name}.");
-            synth.Speak($"1) Talk to {myPet.name}.");
             Console.WriteLine($"2) Feed {myPet.name}.");
-            synth.Speak($"2) Feed {myPet.name}.");
             Console.WriteLine($"3) Play with {myPet.name}.");
-            synth.Speak($"3) Play with {myPet.name}.");
             Console.WriteLine($"4) Rename {myPet.name}.");
-            synth.Speak($"4) Rename {myPet.name}.");
             Console.WriteLine("5) Save your game.");
-            synth.Speak("5) Save your game.");
             Console.WriteLine("6) Load your saved game.");
-            synth.Speak("6) Load your saved game.");
             Console.Write(": ");
             try
             {
